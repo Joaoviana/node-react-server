@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hapi/boom": "^8.0.1",
+    "boom": "^7.3.0",
+    "eslint": "^6.6.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.7.7",
+    "pino": "^5.13.5",
+    "pino-http": "^4.3.0",
+    "pino-pretty": "^3.3.0"
+  }
+}
